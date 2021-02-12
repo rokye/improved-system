@@ -1,0 +1,20 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="result">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:int" name="bin"/>
+        <xs:element type="xs:string" name="brand"/>
+        <xs:element type="xs:string" name="bank"/>
+        <xs:element type="xs:string" name="type"/>
+        <xs:element type="xs:string" name="level"/>
+        <xs:element type="xs:string" name="isocountry"/>
+        <xs:element type="xs:string" name="country_iso"/>
+        <xs:element type="xs:string" name="country2_iso"/>
+        <xs:element type="xs:short" name="country3_iso"/>
+        <xs:element type="xs:anyURI" name="www"/>
+        <xs:element type="xs:string" name="phone"/>
+        <xs:element type="xs:string" name="info"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
